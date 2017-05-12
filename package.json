@@ -1,0 +1,21 @@
+{
+  "name": "jsdoc-example",
+  "version": "0.0.1",
+  "description": "jsdoc example",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "docs": "jsdoc -c ./conf.json"
+  },
+  "author": "Red One",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.3",
+    "standard": "*"
+  }
+}
